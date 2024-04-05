@@ -5,7 +5,7 @@ import folk.sisby.kaleido.lib.quiltconfig.api.annotations.Comment;
 
 public class PicoHudConfig extends WrappedConfig {
 	@Comment("Whether the 'show overlay' key should act as a toggle, instead of a hold")
-	public final Boolean useKeyToggle = false;
+	public final Boolean useKeyToggle = true; //changed to act as a toggle because... everyone thinks is better :)
 	@Comment("Whether to show rounded coordinates")
 	public final Boolean showCoordinates = true;
 	@Comment("Whether to show cardinal facing direction")
