@@ -22,6 +22,7 @@ repositories {
 	maven { url 'https://maven.quiltmc.org/repository/release'}
 	maven { url "https://maven.terraformersmc.com/" }
 	maven { url "https://maven.cafeteria.dev/releases" }
+	maven { url 'https://repo.sleeping.town/' } //Has to be specified otherwise the import WrappedConfig in PicoHudConfig.java will not find it, since is not hosted locally either
 }
 
 dependencies {
